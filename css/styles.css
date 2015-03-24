@@ -248,3 +248,8 @@ outline: 0;
 a:focus{
 outline: 0;
 }
+
+.panel-body{
+text-align:center;
+font-weight: bold;
+}
