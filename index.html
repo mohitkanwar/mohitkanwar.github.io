@@ -10,7 +10,10 @@
 			Mohit Kanwar - Keep Learning
 		</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet"></link>
+		<link href="css/animate.css" rel="stylesheet"></link>
 		<link href="css/styles.css" rel="stylesheet"></link>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -121,8 +124,8 @@
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav nav-justified">
 							<li>
-								<a href="#section1">
-									Bio
+								<a href="#Intro">
+									Intro
 								</a>
 							</li>
 							<li>
@@ -131,8 +134,13 @@
 								</a>
 							</li>
 							<li>
-								<a href="#section3">
+								<a href="#education">
 									Education
+								</a>
+							</li>
+							<li>
+								<a href="#section3">
+									Projects
 								</a>
 							</li>
 							<li>
@@ -156,7 +164,7 @@
 				<!-- /.navbar -->
 
 			</div>
-			<div class="divider" id="section1"></div>
+			<div class="divider" id="Intro"></div>
 			<div class="container">
 				<div class="col-sm-10 col-sm-offset-1">
 					<div class="page-header text-center">
@@ -190,35 +198,18 @@
 						<div class="divider"></div>
 					</div>
 				</div>
-				<div class="bs-example">
+				<div class="container">
 					<div class="panel-group" id="MyAccordian">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h4 class="panel-title" data-toggle="collapse" data-parent="#MyAccordian" href="#oneAccPanel">
-									<div class="companyname NetSmartz"></div>
+								<h4 class="panel-title" data-toggle="collapse" data-parent="#MyAccordian" href="#fourAccPanel">
+									<div class="companyname Xebia"></div>
 									<span class="accordianTitle">
-										Trainee (Jul'07 - Dec'07)
+										Sr. Consultant (May'14 onwards)
 									</span>
 								</h4>
 							</div>
-							<div id="oneAccPanel" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<p>
-										Trainee, 6 months 2007
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title" data-toggle="collapse" data-parent="#MyAccordian" href="#twoAccPanel">
-									<div class="companyname Infosys"></div>
-									<span class="accordianTitle">
-										Sr. Software Engineer (Jul'08 - Feb'13)
-									</span>
-								</h4>
-							</div>
-							<div id="twoAccPanel" class="panel-collapse collapse">
+							<div id="fourAccPanel" class="panel-collapse collapse in">
 								<div class="panel-body">
 									<p>
 										Sr. Software Engineer, 2008-2013
@@ -245,14 +236,14 @@
 						</div>
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h4 class="panel-title" data-toggle="collapse" data-parent="#MyAccordian" href="#fourAccPanel">
-									<div class="companyname Xebia"></div>
+								<h4 class="panel-title" data-toggle="collapse" data-parent="#MyAccordian" href="#twoAccPanel">
+									<div class="companyname Infosys"></div>
 									<span class="accordianTitle">
-										Sr. Consultant (May'14 onwards)
+										Sr. Software Engineer (Jul'08 - Feb'13)
 									</span>
 								</h4>
 							</div>
-							<div id="fourAccPanel" class="panel-collapse collapse">
+							<div id="twoAccPanel" class="panel-collapse collapse">
 								<div class="panel-body">
 									<p>
 										Sr. Software Engineer, 2008-2013
@@ -260,7 +251,109 @@
 								</div>
 							</div>
 						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title" data-toggle="collapse" data-parent="#MyAccordian" href="#oneAccPanel">
+									<div class="companyname NetSmartz"></div>
+									<span class="accordianTitle">
+										Trainee (Jul'07 - Dec'07)
+									</span>
+								</h4>
+							</div>
+							<div id="oneAccPanel" class="panel-collapse collapse">
+								<div class="panel-body">
+									<p>
+										Trainee, 6 months 2007
+									</p>
+								</div>
+							</div>
+						</div>
 					</div>
+				</div>
+			</div>
+			<div class="divider"></div>
+			<div class="divider" id="education"></div>
+			<div>
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h1>
+							Education
+						</h1>
+						<hr/>
+						<div class="auto-scroll-me">
+							<div id="educationDetails">
+								<a href="http://www.ptu.ac.in/" target="_blank">
+									<img src="./assets/ptulogo.gif" class="education-image"></img>
+								</a>
+								<h3>
+									Punjab Technical University
+								</h3>
+								<h4>
+									B.Tech
+								</h4>
+								<small>
+									2004 - 2008
+								</small>
+								<span>
+									Electronics and Communication Engineering 
+								</span>
+							</div>
+							<div id="educationDetailsmba">
+								<a href="http://www.iutripura.edu.in/" target="_blank">
+									<img src="./assets/icfailogo.gif" class="education-image"></img>
+								</a>
+								<h3>
+									ICFAI University, Tripura
+								</h3>
+								<h4>
+									M.B.A
+								</h4>
+								<small>
+									2009 - 2010
+								</small>
+								<span>
+									IT Management
+								</span>
+							</div>
+							<div id="educationDetailssecondary">
+								<a href="http://ghpsgnr.org/" target="_blank">
+									<img src="./assets/ghpslogo.jpeg" class="education-image"></img>
+								</a>
+								<h3>
+									Guru Harkrishan Public School
+								</h3>
+								<h4>
+									Secondary & Sr. Secondary
+								</h4>
+								<small>
+									uptill 2004
+								</small>
+								<span>
+									Science
+								</span>
+							</div>
+							<div id="educationDetailscsm">
+								<a href="http://www.scrumalliance.org/community/member-directory.aspx?firstname=Mohit&lastname=Kanwar&email=m.m.kanwar%40gmail.com&location=&company=&csm=True&csd=False&csp=False&cspo=False&cst=False&csc=False&rep=False&author=False&page=1&orderby=&sortdir=" target="_blank">
+									<img src="./assets/csm.png" class="education-image"></img>
+								</a>
+								<h3>
+									Scrum Alliance
+								</h3>
+								<h4>
+									Certified ScrumMaster
+								</h4>
+								<small>
+									2014
+								</small>
+								<span>
+									000341103
+								</span>
+							</div>
+						</div>
+						<hr/>
+						<div class="divider"></div>
+					</div>
+					<script src="./js/autoscrollcomponent.js"></script>
 				</div>
 			</div>
 			<div class="divider"></div>
@@ -454,9 +547,7 @@
 				</a>
 			</li>
 		</ul>
-		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
 		<script src="js/scripts.js"></script>
 	</body>
 </html>

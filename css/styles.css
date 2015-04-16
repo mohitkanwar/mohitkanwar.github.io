@@ -299,4 +299,22 @@ font-weight: bold;
 font-weight: bold;
     text-align: center;
 }
-    
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+.auto-scroll-me > div{
+display: none;
+}   
+.auto-scroll-me{
+	min-height: 220px;
+	 text-align: center;
+} 
+.education-image{
+max-height: 100px;
+
+max-width: 200px;
+
+min-width: 30px;
+min-height: 30px;
+}
